@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    height:50px;
+    background: #43bd36!important;
+}
+.mycontainer{
+    padding-right:0;
+    padding-left: 0;
+}
+.myMenu ul li{
+    float: left;
+}
+.myMenu ul li a{
+    font-size: 14px;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 24px;
+    vertical-align: bottom;
+    text-decoration: none;
+    opacity: .9;
+    color: #fff;
+}
+.activetag{
+    background-color: rgba(0,0,0,.2)
+}
