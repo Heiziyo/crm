@@ -23,3 +23,10 @@
 .activetag{
     background-color: rgba(0,0,0,.2)
 }
+
+.myd div{
+    line-height:60px;
+}
+.mLeft40{
+    margin-left: 40px!important;
+}

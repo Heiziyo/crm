@@ -9,7 +9,9 @@
                 </ul>
             </div>
             <div class="myD pull-right">
-                ddd
+                <div class="mLeft40 pull-left"><i class="glyphicon glyphicon-plus " style="cursor:pointer"></i></div>
+                <div class="mLeft40 pull-left"> <i class="glyphicon glyphicon-bell"></i> </div>
+                <div class="mLeft40 pull-left"><i class="glyphicon glyphicon-user"></i></div>
             </div>
         </div>
 
