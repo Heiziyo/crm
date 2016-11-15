@@ -13,4 +13,11 @@ class TeamController extends Controller
 
        return view('team.index');
     }
+
+
+    public function welcome(){
+        return 333;
+    }
+
+
 }
