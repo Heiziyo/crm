@@ -2,6 +2,7 @@
     width: 100%;
     height:50px;
     background: #43bd36!important;
+    position: relative;
 }
 .mycontainer{
     padding-right:0;
@@ -23,10 +24,36 @@
 .activetag{
     background-color: rgba(0,0,0,.2)
 }
-
-.myd div{
+/*.myD{
+    position: relative;
+}*/
+.myD i{
+     display: block;
     line-height:60px;
+    height: 60px;
+    position:absolute;
+    top:50%;
+    margin-top: -30px;
+}
+.myD i.icon1{
+   right: 40px;
+}
+.myD i.icon2{
+   right: 80px;
+}
+.myD i.icon3{
+   right: 120px;
 }
 .mLeft40{
     margin-left: 40px!important;
+}
+.myrow{
+    margin-right:0;
+    margin-left: 0;
+
+}
+
+.clearpading{
+    padding: 0;
+
 }
