@@ -120,7 +120,7 @@ class LoginController extends Controller
         return redirect()->back()
             ->withInput($request->only('login', 'remember'))
             ->withErrors([
-                'login' => Lang::get('账户或者密码错误'),
+                'login' => Lang::get('auth.failed'),
             ]);
     }
 }
