@@ -52,7 +52,7 @@ class RegisterController extends Controller
             'email' => 'required|email|max:255|unique:users',
             'phone' => 'required|max:12|unique:users',
             'password' => 'required|min:6|confirmed',
-        ]);
+        ],$this->getErrorMessages());
     }
 
     /**
@@ -69,5 +69,13 @@ class RegisterController extends Controller
             'phone' => $data['phone'],
             'password' => bcrypt($data['password']),
         ]);
+    }
+
+    protected function getErrorMessages(){
+        $messages = [
+            'name.required'=>'必须填写',
+            'phone.unique' =>'已经注册了',
+        ];
+        return $messages;
     }
 }
