@@ -21,3 +21,6 @@ Route::get('/home', 'HomeController@index');
 
 
 Route::get('/team', 'Team\TeamController@index');
+
+Route::get('/project', 'Project\ProjectController@index');
+
