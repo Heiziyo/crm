@@ -123,6 +123,15 @@ return [
     'log' => env('APP_LOG', 'single'),
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
+    /*
+     *
+     * aliyun OSS
+     *
+     */
+    'oss_accesskeyid'=>env('ALIOSS_ACCESSKEYID', ''),
+    'oss_accesskeysecret'=>env('ALIOSS_ACCESSKEYSECRET', ''),
+    'oss_endpoint'=>env('ALIOSS_ENDPOINT', ''),
+
 
     /*
     |--------------------------------------------------------------------------
