@@ -9,6 +9,10 @@ class ProjectController extends Controller
 {
     public function index(){
 
-        tests();
+
+
+
+
+        return view('project.index');
     }
 }
