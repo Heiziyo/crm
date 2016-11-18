@@ -16,8 +16,13 @@
                     </div>
                 </div>
             </div>
+            <link rel="stylesheet" href="/css/designcss.css">
             <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="uploadBox">
 
+                    </div>
+                </div>
             </div>
         </div>
 @endsection
