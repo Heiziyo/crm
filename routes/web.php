@@ -24,3 +24,4 @@ Route::get('/team', 'Team\TeamController@index');
 
 Route::get('/project', 'Project\ProjectController@index');
 
+Route::get('/adddesign', 'Project\ProjectController@addDesign');

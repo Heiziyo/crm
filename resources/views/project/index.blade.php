@@ -4,7 +4,7 @@
 
 @section('content')
     <divc class="container-fluid">
-        <div class="row">
+        <div class="row" style="margin: 0;">
             <div class="col-md-12">
 
             </div>

@@ -15,4 +15,14 @@ class ProjectController extends Controller
 
         return view('project.index');
     }
+
+    /**
+     * 上传设计稿
+     */
+    function addDesign(){
+
+
+
+
+    }
 }

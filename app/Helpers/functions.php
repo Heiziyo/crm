@@ -9,6 +9,17 @@
 
 if(!function_exists('tests')){
     function tests(){
-        echo "test";
+
+    }
+}
+
+
+if (!function_exists('uploads_img')){
+    function uploads_img(){
+
+
+
+
+
     }
 }
