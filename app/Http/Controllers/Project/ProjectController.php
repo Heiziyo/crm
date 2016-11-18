@@ -22,7 +22,6 @@ class ProjectController extends Controller
      */
     function addDesign(){
 
-        $ossClient  = new OssClient();
         try {
             $ossClient = new OssClient('Wc7HoLLuXHV2tq2O', 'lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf', 'http://oss-cn-shanghai.aliyuncs.com');
         } catch (OssException $e) {
