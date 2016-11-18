@@ -2,7 +2,8 @@
 
 
 @section('content')
-    <div class="container-fluid">
+    <link rel="stylesheet" href="/css/designcss.css">
+    <div class="myDesing">
         <div class="row">
             <div class="col-md-2">
                 <div class="panel panel-default">
@@ -17,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <link rel="stylesheet" href="/css/designcss.css">
+
             <div class="col-md-8">
                 <div class="panel panel-default">
                     <div class="uploadBox center-block">
