@@ -22,8 +22,9 @@ class ProjectController extends Controller
      */
     function addDesign(){
 
+
         try {
-            $ossClient = new OssClient('Wc7HoLLuXHV2tq2O', 'lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf', 'http://oss-cn-shanghai.aliyuncs.com');
+            $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
         } catch (OssException $e) {
             print $e->getMessage();
         }
