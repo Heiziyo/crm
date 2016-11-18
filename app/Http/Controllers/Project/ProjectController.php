@@ -22,7 +22,7 @@ class ProjectController extends Controller
      */
     function addDesign(){
 
-
+        return config('app.oss_accesskeyid');
         try {
             $ossClient = new OssClient(config('app.oss_accesskeyid'),config('app.oss_accesskeysecret') ,config('app.oss_endpoint') );
         } catch (OssException $e) {
