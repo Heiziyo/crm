@@ -22,7 +22,7 @@ class ProjectController extends Controller
     function addDesign(){
 
 
-
+        return view('project.adddesign');
 
     }
 }
