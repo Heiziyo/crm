@@ -13,7 +13,7 @@
                     </div>
                     <div class="panel-body">
                         <div class="cover"><img  class="img-responsive" src="/images/cover.png" alt="" width="260" height="210"></div>
-                        <button type="button" class="btn btn-primary btn-lg btn-block ">封面编辑(规格)</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block " style="margin-top: 10px">封面编辑(规格)</button>
                     </div>
                 </div>
             </div>
