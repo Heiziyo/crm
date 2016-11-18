@@ -20,4 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 
-Route::get('team', 'Team\TeamController@index');
+Route::get('/team', 'Team\TeamController@index');
