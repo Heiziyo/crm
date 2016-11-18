@@ -9,6 +9,6 @@ class ProjectController extends Controller
 {
     public function index(){
 
-    	return 222;
+        tests();
     }
 }
