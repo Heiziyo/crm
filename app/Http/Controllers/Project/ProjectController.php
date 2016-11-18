@@ -24,7 +24,7 @@ class ProjectController extends Controller
 
         $ossClient  = new OssClient();
         try {
-            $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
+            $ossClient = new OssClient(ALIOSS_ACCESSKEYID, ALIOSS_ACCESSKEYSECRET, ALIOSS_ENDPOINT);
         } catch (OssException $e) {
             print $e->getMessage();
         }
