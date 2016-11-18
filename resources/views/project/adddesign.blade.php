@@ -2,11 +2,11 @@
 
 
 @section('content')
-    <divc class="container-fluid">
+    <divc class="container">
         <div class="row" style="margin: 0;">
             <div class="col-md-3">
-                <div class="panel">
-                    <div class="page-header">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
                         <h3 class="panel-title panel-danger">
                             黑子
                         </h3>
