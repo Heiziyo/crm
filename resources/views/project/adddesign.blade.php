@@ -12,8 +12,8 @@
                         </h3>
                     </div>
                     <div class="panel-body">
-                        <div class="cover"><img src="/images/cover.png" alt="" width="280" height="210"></div>
-                        <button type="button" class="btn btn-primary btn-lg btn-block">封面编辑(规格)</button>
+                        <div class="cover"><img  class="img-responsive" src="/images/cover.png" alt="" width="260" height="210"></div>
+                        <button type="button" class="btn btn-primary btn-lg btn-block ">封面编辑(规格)</button>
                     </div>
                 </div>
             </div>
