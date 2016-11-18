@@ -4,7 +4,7 @@
 @section('content')
     <divc class="container">
         <div class="row" style="margin: 0;">
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title panel-danger">
@@ -13,11 +13,11 @@
                     </div>
                     <div class="panel-body">
                         <div class="cover"><img src="/images/cover.png" alt="" width="280" height="210"></div>
-                        <button type="button" class="btn btn-primary">封面编辑(规格)</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">封面编辑(规格)</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
 
             </div>
         </div>
