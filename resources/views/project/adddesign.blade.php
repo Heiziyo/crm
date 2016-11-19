@@ -29,7 +29,7 @@
         </div>
     </div>
     <!--引入CSS-->
-    <link rel="stylesheet" type="text/css" href="/webuploader-0.1.5/webuploader.css">
+    <!--<link rel="stylesheet" type="text/css" href="/webuploader-0.1.5/webuploader.css">-->
     <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
     <!--引入JS-->
     <script type="text/javascript" src="/webuploader-0.1.5/webuploader.js"></script>
