@@ -35,7 +35,7 @@
     <script type="text/javascript" src="/webuploader-0.1.5/webuploader.js"></script>
     <script>
         var BASE_URL = '/webuploader-0.1.5/'
-        var uploader = WebUploader.creat({
+        var uploader = WebUploader.create({
             // swf文件路径
             swf: BASE_URL + 'Uploader.swf',
 
