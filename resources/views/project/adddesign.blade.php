@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="/webuploader-0.1.5/webuploader.css">
 
     <!--引入JS-->
-    <script type="text/javascript" src="/webuploader/webuploader.js"></script>
+    <script type="text/javascript" src="/webuploader-0.1.5/webuploader.js"></script>
     <script>
         var uploader = WebUploader.creat({
             // swf文件路径
