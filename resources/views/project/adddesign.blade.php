@@ -34,9 +34,10 @@
     <!--引入JS-->
     <script type="text/javascript" src="/webuploader-0.1.5/webuploader.js"></script>
     <script>
+        var BASE_URL = '/webuploader-0.1.5/'
         var uploader = WebUploader.creat({
             // swf文件路径
-            swf: BASE_URL + '/js/Uploader.swf',
+            swf: BASE_URL + 'Uploader.swf',
 
             // 文件接收服务端。
             server: 'http://webuploader.duapp.com/server/fileupload.php',
