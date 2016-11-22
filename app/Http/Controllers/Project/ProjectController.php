@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Project;
 
+use App\Http\Controllers\CrmBaseController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use OSS\OssClient;
 use OSS\Core\OssException;
-class ProjectController extends Controller
+class ProjectController extends CrmBaseController
 {
     public function index(){
 
