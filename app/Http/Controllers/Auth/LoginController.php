@@ -94,6 +94,30 @@ class LoginController extends Controller
         ]);
 
     }
+
+    /**
+     * 用户已被验证.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  mixed  $user
+     * @return mixed
+     */
+    protected function authenticated(Request $request, $user)
+    {
+        if ($user->role == 0){
+            $this->redirectTo = '/upinfo';
+        }elseif($user->role == 1){
+
+        }elseif($user->role == 2){
+
+        }
+        elseif($user->role == 3){
+
+        }
+        elseif($user->role == 4){
+            $this->redirectTo = '/manage';
+        }
+    }
     /**
      * 从请求中获取所需的授权凭据.
      *
@@ -123,4 +147,8 @@ class LoginController extends Controller
                 'login' => Lang::get('auth.failed'),
             ]);
     }
+
+
+
+
 }

@@ -28,3 +28,4 @@ Route::get('/adddesign', 'Project\ProjectController@addDesign');
 
 
 Route::get('/manage', 'Manage\ManageController@index');
+Route::any('/upinfo', 'Common\CommonController@upInfo');
