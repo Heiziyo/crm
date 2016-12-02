@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-
+$this->post('login', 'Auth\LoginController@login')->middleware('permission');
 Route::get('/team', 'Team\TeamController@index');
 
 Route::get('/project', 'Project\ProjectController@index');

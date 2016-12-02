@@ -14,7 +14,6 @@ class Controller extends BaseController
 
     public function __construct()
     {
-        $user = \Auth::user();
-        dd($user);
+
     }
 }
