@@ -33,4 +33,5 @@ Route::any('/upinfo', 'Common\CommonController@upInfo');
 
 Route::get('/course', 'Team\CourseController@index');
 Route::get('/webcourse', 'Team\CourseController@webCourse');
-
+Route::get('/designcourse', 'Team\CourseController@designCourse');
+Route::get('/backcourse', 'Team\CourseController@backCourse');

@@ -25,4 +25,21 @@ class CourseController extends Controller
 
         return view('course.webcourse');
     }
+
+    /*
+     *设计课程
+     */
+    public function designCourse(){
+
+
+        return view('course.designcourse');
+    }
+    /*
+     *后端课程
+     */
+    public function backCourse(){
+
+
+        return view('course.backcourse');
+    }
 }

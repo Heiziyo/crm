@@ -94,10 +94,10 @@
                 <a href="{{ url('webcourse') }}">前端</a>
             </div>
             <div>
-                <a href="">设计</a>
+                <a href="{{ url('designCourse') }}">设计</a>
             </div>
             <div>
-                <a href="">后端</a>
+                <a href="{{ url('backCourse') }}">后端</a>
             </div>
         </div>
     </div>
