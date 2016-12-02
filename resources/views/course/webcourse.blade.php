@@ -7,7 +7,7 @@
     <title>前端课程体系</title>
     <link rel="stylesheet" href="{{ asset('/coursestyle/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('/coursestyle/css/reset.css') }}">
-    <script src={{asset('/coursestyle/js/jquery.min.js')}}""></script>
+    <script src="{{asset('/coursestyle/js/jquery.min.js')}}"></script>
     <script src="{{asset('/coursestyle/js/main.js')}}"></script>
 </head>
 <body>
