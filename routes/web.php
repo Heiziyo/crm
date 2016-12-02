@@ -23,7 +23,6 @@ $this->post('login', 'Auth\LoginController@login')->middleware('permission');
 Route::get('/team', 'Team\TeamController@index');
 
 Route::get('/project', 'Project\ProjectController@index');
-
 Route::get('/adddesign', 'Project\ProjectController@addDesign');
 
 
@@ -35,3 +34,6 @@ Route::get('/course', 'Team\CourseController@index');
 Route::get('/webcourse', 'Team\CourseController@webCourse');
 Route::get('/designcourse', 'Team\CourseController@designCourse');
 Route::get('/backcourse', 'Team\CourseController@backCourse');
+
+Route::get('/admin', 'Admin\AdminController@index');
+
