@@ -14,7 +14,7 @@ class CourseController extends Controller
     public function index(){
 
 
-        return view('course.index');
+        return view('coursestyle.index');
     }
 
     /*
@@ -23,6 +23,6 @@ class CourseController extends Controller
     public function webCourse(){
 
 
-        return view('course.webcourse');
+        return view('coursestyle.webcourse');
     }
 }
