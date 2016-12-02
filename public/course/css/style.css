@@ -1,0 +1,194 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, 'Microsoft YaHei';
+    color: #666;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 700px;
+
+}
+.fl{ float: left; }
+.fr{ float: right; }
+
+/************头部**************************/
+
+.head {
+    width: 100%;
+    margin: 0 auto;
+    height: 550px;
+    background: url("../images/bg.png") no-repeat center top;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.head_content {
+    width: 80%;
+    min-width: 700px;
+    margin: 0 auto;
+    height: 430px;
+    overflow: hidden;
+}
+.head_titie {
+    margin-left: 10%;
+    padding-top: 218px;
+    background: url("../images/logo.png") no-repeat center 97px;
+    float: left;
+    text-align: center;
+}
+.head_titie h3 {
+    font-size: 60px;
+    font-weight: normal;
+    color: #e15671;
+}
+.head_titie p {
+    font-size: 20px;
+    color: #4f4e49;
+}
+
+
+/*************中心部分**********************************/
+.content {
+    width: 100%;
+    margin-top: 430px;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.box {
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #f1f4f9;
+}
+.table {
+    width: 80%;
+    min-width: 700px;
+    margin: auto;
+}
+.curriculum {
+    padding: 0 20px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.curriculum h3 {
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 2px;
+
+}
+.curriculum h3 a{
+    display: block;
+    line-height: 44px;
+    color: #666;
+    background: url("../images/open.png") no-repeat 97% center;
+}
+.curriculum h3 a span{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #e7f0f7;
+    color: #44bac8;
+    margin-right: 20px;
+
+}
+
+.title-list a{
+	color: #666;
+	line-height: 30px;
+}
+.title-list  ul{
+    display: none;
+    margin-left: 44px;
+    padding-left: 20px;
+    border-left: 1px solid #93cfd8;
+    position: relative;
+    margin-bottom: 2px;
+   
+  }
+  
+  .title-list  ul li{
+    position: relative;
+  }
+
+  .active{
+    color: #fff!important;
+    background: #93CFD8  url("../images/close.png") no-repeat 97% center !important;
+  }
+  .active2{
+    color: #fff!important;
+    background-color: #53B5C0!important;
+  }
+  .dot {
+    width: 13px;
+    height: 13px;
+    background: url("../images/dot.png");
+    position: absolute;
+    top: 8px;
+    left: -27px;
+    z-index: 99;
+}
+
+.table_title {
+    width: 100%;
+    height: 40px;
+    padding: 30px 0 20px 0;
+}
+
+.table_title .chapter {
+    background: url("../images/chapter.png") no-repeat 13px center;
+}
+.table_title .chapter.active {
+    background: #53b5c0 url("../images/chapter_active.png") no-repeat 13px center!important;
+}
+
+.table_title .spread {
+    background: url("../images/spread.png") no-repeat 13px center;
+}
+.table_title .chapter, .table_title .spread {
+    float: left;
+    width: 72px;
+    padding-left: 38px;
+    height: 36px;
+    line-height: 36px;
+    border: 2px solid #53b5c0;
+    color: #53b5c0;
+}
+.table_title span {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.table_title .details {
+    float: left;
+    width: 72px;
+    height: 38px;
+    padding: 0 38px 0 14px;
+    border: 1px solid #e15671;
+    color: #e15671;
+    font-size: 18px;
+    line-height: 38px;
+    background: url("../images/details.png") no-repeat 96px center;
+}
+
+
+.back-top{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    z-index: 999;
+    background: url("../images/top.png");
+    display: none;  
+}
+.back-top:hover{ background: url("../images/top_active.png"); }
+  
+

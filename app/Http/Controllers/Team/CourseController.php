@@ -16,4 +16,13 @@ class CourseController extends Controller
 
         return view('course.index');
     }
+
+    /*
+     * 前端课程
+     */
+    public function webCourse(){
+
+
+        return view('course.webcourse');
+    }
 }

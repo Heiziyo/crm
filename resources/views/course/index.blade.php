@@ -91,7 +91,7 @@
 
         <div class="links">
             <div>
-                <a href="">前端</a>
+                <a href="{{ url('webcourse') }}">前端</a>
             </div>
             <div>
                 <a href="">设计</a>
