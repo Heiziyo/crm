@@ -62,13 +62,13 @@
             width:200px;
             height:200px;
             float: left;
-            margin-left: 10px;
+            margin-right: 10px;
             text-align: center;
             line-height:200px;
             border:1px solid #ccc;
         }
         .links div:last-child{
-            margin-left: 0px;
+            margin-right: 0px;
         }
         .m-b-md {
             margin-bottom: 30px;
