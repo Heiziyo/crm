@@ -65,6 +65,7 @@
             margin-left: 10px;
             text-align: center;
             line-height:200px;
+            border:1px solid #ccc;
         }
         .links div:last-child{
             margin-left: 0px;
