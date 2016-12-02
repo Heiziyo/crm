@@ -31,6 +31,6 @@ Route::get('/manage', 'Manage\ManageController@index');
 Route::any('/upinfo', 'Common\CommonController@upInfo');
 
 
-Route::get('/coursestyle', 'Team\CourseController@index');
+Route::get('/course', 'Team\CourseController@index');
 Route::get('/webcourse', 'Team\CourseController@webCourse');
 
