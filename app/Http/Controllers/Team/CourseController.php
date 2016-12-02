@@ -23,6 +23,6 @@ class CourseController extends Controller
     public function webCourse(){
 
 
-        return view('coursestyle.webcourse');
+        return view('course.webcourse');
     }
 }
