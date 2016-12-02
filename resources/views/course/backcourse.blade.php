@@ -36,7 +36,7 @@
 
                 <div class="table_list">
                     <div class="curriculum">
-                        <h3>PHP基础</h3>
+                        <h3>第一阶段:PHP基础和mysql基础</h3>
                         <div class="title-list">
                             <h3>
                                 <a href=""><span>1</span>第一章：JS入门 - 原理分析、语法规则、自定义属性操作、if、this、for</a>
