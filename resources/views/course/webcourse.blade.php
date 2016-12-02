@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>demo</title>
-    <link rel="stylesheet" href="/course/css/style.css">
-    <link rel="stylesheet" href="/course/css/reset.css">
-    <script src="/course/js/jquery.min.js"></script>
-    <script src="/course/js/main.js"></script>
+    <link rel="stylesheet" href="{{ asset('/course/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/course/css/reset.css') }}">
+    <script src={{asset('/course/js/jquery.min.js')}}""></script>
+    <script src="{{asset('/course/js/main.js')}}"></script>
 </head>
 <body>
 <div class="page">
