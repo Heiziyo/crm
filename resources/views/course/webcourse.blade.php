@@ -36,13 +36,13 @@
 
                 <div class="table_list">
                     <div class="curriculum">
-                        <h3>JavaScript入门基础</h3>
+                        <h3>javascript基础-精通</h3>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>1</span>第一章：JS入门 - 原理分析、语法规则、自定义属性操作、if、this、for</a>
+                                <a href=""><span>1</span>1、概述</a>
                             </h3>
                             <ul>
-                                <li><a href="#" target="_blank"><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
+                                <li><a href="#" target="_blank"><i class="dot"></i>2、流程控制语句</a></li>
                                 <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
                                 <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
                                 <li><a href="">1.3.1 - getElementById</a></li>
