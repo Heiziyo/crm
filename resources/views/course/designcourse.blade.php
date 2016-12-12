@@ -16,7 +16,7 @@
         <div class="head_content">
             <div class="head_titie">
                 <h3 class="">网页设计</h3>
-                <p>PHOTOSHOP</p>
+                <p>PHOTOSHOP,AI</p>
             </div>
         </div>
     </div>
