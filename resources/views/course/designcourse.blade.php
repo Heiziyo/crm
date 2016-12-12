@@ -36,266 +36,132 @@
 
                 <div class="table_list">
                     <div class="curriculum">
-                        <h3>JavaScript入门基础</h3>
+                        <h3>第一章</h3>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>1</span>第一章：JS入门 - 原理分析、语法规则、自定义属性操作、if、this、for</a>
+                                <a href=""><span>1</span>Adobe Photoshop--基础</a>
                             </h3>
                             <ul>
-                                <li><a href="#" target="_blank"><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="#" target="_blank"></a></li>
+                                <li><a href="">1、介绍Photoshop</a></li>
+                                <li><a href="">2、认识Photoshop界面</a></li>
+                                <li><a href="">3、新建文档RGB与CMYK与保存常用格式</a></li>
+                                <li><a href="">4、图层的概念与作用</a></li>
+                                <li><a href="">5、视图操作放大缩小平移与旋转</a></li>
+                                <li><a href="">6、变形工具与智能对象</a></li>
+                                <li><a href="">7、选区工具</a></li>
+                                <li><a href="">8、裁剪工具</a></li>
+                                <li><a href="">9、污点修复工具组</a></li>
+                                <li><a href="">10、画笔工具与历史画笔工具磨皮</a></li>
+                                <li><a href="">11、文字排版字符</a></li>
+                                <li><a href="">12、抠图的作用与快速选择抠图</a></li>
+                                <li><a href="">13、钢笔工具抠图</a></li>
+                                <li><a href="">14、通道抠图</a></li>
+                                <li><a href="">15、调整边缘抠图</a></li>
+                                <li><a href="">16、快速蒙版</a></li>
+                                <li><a href="">17、认识调节图层</a></li>
+                                <li><a href="">18、读懂直放图</a></li>
+                                <li><a href="">19、色阶命令</a></li>
+                                <li><a href="">20、曲线命令</a></li>
+                                <li><a href="">21、照片滤镜</a></li>
+                                <li><a href="">22、色相饱和度命令</a></li>
+                                <li><a href="">23、色彩平衡</a></li>
+                                <li><a href="">24、把相片转为黑白</a></li>
+                                <li><a href="">25、渐变映射</a></li>
+                                <li><a href="">26、图层样式</a></li>
+                                <li><a href="">27、滤镜-液化</a></li>
+                                <li><a href="">28、Camera raw 介绍与使用</a></li>
+                                <li><a href="">29、三大面五大调子</a></li>
+                                <li><a href="">30、什么是双曲线</a></li>
+                                <li><a href="">31、商业人物修图</a></li>
+                                <li><a href="">32、化妆品光影塑造</a></li>
                             </ul>
                         </div>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>2</span>第二章：ECMAScript 5.1、数据类型、函数传参、作用域、运算符、流程控制</a>
+                                <a href=""><span>2</span>Adobe Photoshop--合成</a>
                             </h3>
                             <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="">1、扁平化风格</a></li>
+                                <li><a href="">2、空间透视</a></li>
+                                <li><a href="">3、光影合成</a></li>
+                                <li><a href="">4、霓虹灯效果</a></li>
+                                <li><a href="">5、纪念碑谷风格</a></li>
                             </ul>
                         </div>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>3</span>第三章：定时器和日期对象、setInterval、setTimeout、MTween、new Date</a>
+                                <a href=""><span>3</span>企业站</a>
                             </h3>
                             <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="">1、讲解企业站结构</a></li>
+                                <li><a href="">2、PC端与无线端设计规范</a></li>
                             </ul>
                         </div>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>4</span>第四章：定时器和日期对象、setInterval、setTimeout、MTween、new Date</a>
+                                <a href=""><span>4</span>商城站</a>
                             </h3>
                             <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="">1、讲解企业站结构</a></li>
+                                <li><a href="">2、PC端与无线端设计规范</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="curriculum">
-                        <h3>JavaScript入门基础</h3>
+                        <h3>第二章</h3>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>1</span>第一章：JS入门 - 原理分析、语法规则、自定义属性操作、if、this、for</a>
+                                <a href=""><span>1</span>天猫淘宝设计</a>
                             </h3>
                             <ul>
-                                <li><a href="http://www.baidu.com" target="_blank"><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="" target="_blank">1、讲解淘宝PC端与无线端设计规范</a></li>
+                                <li><a href="">2、淘宝后台店铺装修操作流程</a></li>
+                                <li><a href="">3、主图设计注意事项</a></li>
+                                <li><a href="">4、详情页设计注意事项</a></li>
+                                <li><a href="">5、店铺首页设计注意事项</a></li>
+                                <li><a href="">6、活动专题页设计注意事项</a></li>
                             </ul>
                         </div>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>2</span>第二章：ECMAScript 5.1、数据类型、函数传参、作用域、运算符、流程控制</a>
+                                <a href=""><span>2</span>UI设计</a>
                             </h3>
                             <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="">1、UI设计规范</a></li>
+                                <li><a href="">2、图标制作技法</a></li>
+                                <li><a href="">3、扁平化图标介绍与制作</a></li>
+                                <li><a href="">4、线性图标介绍与制作</a></li>
+                                <li><a href="">5、立构级扁平化图标介绍与制作</a></li>
+                                <li><a href="">6、微质感图标介绍与制作</a></li>
+                                <li><a href="">7、金属质感图标介绍与制作</a></li>
+                                <li><a href="">8、主题风图标介绍与制作</a></li>
+                                <li><a href="">9、卡通风图标介绍与制作</a></li>
+                                <li><a href="">10、系统图标介绍与制作</a></li>
+                                <li><a href="">11、用户体验需求分析</a></li>
+                                <li><a href="">12、低保真原型图介绍</a></li>
+                                <li><a href="">13、介绍IOS设计规范</a></li>
+                                <li><a href="">14、介绍安卓设计规范</a></li>
+                                <li><a href="">15、可穿戴设计介绍</a></li>
+                                <li><a href="">16、APP设计规范</a></li>
+                                <li><a href="">17、APP标注</a></li>
+                                <li><a href="">18、APP切图</a></li>
                             </ul>
                         </div>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>3</span>第三章：定时器和日期对象、setInterval、setTimeout、MTween、new Date</a>
+                                <a href=""><span>3</span>平面类</a>
                             </h3>
                             <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
+                                <li><a href="">1、印刷品设计规范和常识</a></li>
+                                <li><a href="">2、名片设计</a></li>
+                                <li><a href="">3、DM单页设计</a></li>
+                                <li><a href="">4、活动物料介绍与制作</a></li>
                             </ul>
                         </div>
-                        <div class="title-list">
-                            <h3>
-                                <a href=""><span>4</span>第四章：定时器和日期对象、setInterval、setTimeout、MTween、new Date</a>
-                            </h3>
-                            <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
-                            </ul>
-                        </div>
+
                     </div>
-                    <div class="curriculum">
-                        <h3>JavaScript入门基础</h3>
-                        <div class="title-list">
-                            <h3>
-                                <a href=""><span>1</span>第一章：JS入门 - 原理分析、语法规则、自定义属性操作、if、this、for</a>
-                            </h3>
-                            <ul>
-                                <li><a href="#" target="_blank"><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
-                            </ul>
-                        </div>
-                        <div class="title-list">
-                            <h3>
-                                <a href=""><span>2</span>第二章：ECMAScript 5.1、数据类型、函数传参、作用域、运算符、流程控制</a>
-                            </h3>
-                            <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
-                            </ul>
-                        </div>
-                        <div class="title-list">
-                            <h3>
-                                <a href=""><span>3</span>第三章：定时器和日期对象、setInterval、setTimeout、MTween、new Date</a>
-                            </h3>
-                            <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
-                            </ul>
-                        </div>
-                        <div class="title-list">
-                            <h3>
-                                <a href=""><span>4</span>第四章：定时器和日期对象、setInterval、setTimeout、MTween、new Date</a>
-                            </h3>
-                            <ul>
-                                <li><a href=""><i class="dot"></i>1.1 - 网页特效原理分析</a></li>
-                                <li><a href=""><i class="dot"></i>1.2 - 编写JS的流程</a></li>
-                                <li><a href=""><i class="dot"></i>1.3 - 第一个JS特效实例</a></li>
-                                <li><a href="">1.3.1 - getElementById</a></li>
-                                <li><a href="">1.3.2 - 事件类型：鼠标、键盘、窗口、表单、自定义……</a></li>
-                                <li><a href="">1.3.3 - 函数：定义、调用</a></li>
-                                <li><a href="">1.3.4 - 声明变量、变量定义方式</a></li>
-                                <li><a href="">1.3.5 - 变量命名规则</a></li>
-                                <li><a href="">1.3.6 - 关键字、保留字</a></li>
-                                <li><a href="">1.3.7 - window是什么、onload事件</a></li>
-                                <li><a href="">1.3.8 - 匿名函数、用法、区别</a></li>
-                                <li><a href=""><i class="dot"></i>1.4 - JS中的属性操作</a></li>
-                                <li><a href="">1.4.1 - 属性操作语法</a></li>
-                                <li><a href="">1.4.2 - 属性读操作：获取</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
         </div>
