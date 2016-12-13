@@ -93,7 +93,7 @@
     <script type="text/javascript">
         var grid_data =
                 [
-                    {id:"1",bmname:"产品研发部",status:"1",start_time:"2",num:"3"},
+                    {id:"1",bmname:"产品研发部",status:"1",start_time:"2",num:"3",note:'333'},
                 ];
 
         var subgrid_data =
@@ -155,7 +155,7 @@
                 data: grid_data,
                 datatype: "local",
                 height: 400,
-                colNames:[' ', 'ID','部门名称', '状态', '成立时间','人数'],
+                colNames:[' ', 'ID','部门名称', '状态', '成立时间','人数','备注'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
                         formatter:'actions',
