@@ -93,7 +93,7 @@
     <script type="text/javascript">
         var grid_data =
                 [
-                    {id:"1",name:"产品研发部",note:"note",stock:"Yes",ship:"FedEx", sdate:"2007-12-03"},
+                    {id:"1",name:"产品研发部",note:"note",stock:"Yes",ship:"FedEx"},
                 ];
 
         var subgrid_data =
