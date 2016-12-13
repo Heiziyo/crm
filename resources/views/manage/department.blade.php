@@ -448,12 +448,4 @@
     <link rel="stylesheet" href="/manage_style/assets/css/ace.onpage-help.css" />
     <link rel="stylesheet" href="/manage_style/docs/assets/js/themes/sunburst.css" />
 
-    <script type="text/javascript"> ace.vars['base'] = '/manage_style'; </script>
-    <script src="/manage_style/assets/js/ace/elements.onpage-help.js"></script>
-    <script src="/manage_style/assets/js/ace/ace.onpage-help.js"></script>
-    <script src="/manage_style/docs/assets/js/rainbow.js"></script>
-    <script src="/manage_style/docs/assets/js/language/generic.js"></script>
-    <script src="/manage_style/docs/assets/js/language/html.js"></script>
-    <script src="/manage_style/docs/assets/js/language/css.js"></script>
-    <script src="/manage_style/docs/assets/js/language/javascript.js"></script>
 @endsection
