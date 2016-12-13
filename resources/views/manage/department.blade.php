@@ -446,7 +446,7 @@
     </script>
     <!-- the following scripts are used in demo only for onpage help and you don't need them -->
     <link rel="stylesheet" href="/manage_style/assets/css/ace.onpage-help.css" />
-    <link rel="stylesheet" href="../docs/assets/js/themes/sunburst.css" />
+    <link rel="stylesheet" href="/manage_style/docs/assets/js/themes/sunburst.css" />
 
     <script type="text/javascript"> ace.vars['base'] = '/manage_style'; </script>
     <script src="/manage_style/assets/js/ace/elements.onpage-help.js"></script>
