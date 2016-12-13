@@ -167,7 +167,7 @@
                             //editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
                         }
                     },
-                    {name:'id',index:'id', width:60, sorttype:"int", editable: true},
+                    {name:'id',index:'id', width:60, sorttype:"int"},
                     {name:'bmname',index:"bmname",editable: true},
                     {name:'status',index:"status"},
                     {name:'start_time',index:"start_time"},
