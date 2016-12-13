@@ -1,6 +1,11 @@
 @extends('layouts.manage')
 
 @section('content')
+    <!-- page specific plugin styles -->
+    <link rel="stylesheet" href="/manage_style/assets/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/datepicker.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ui.jqgrid.css" />
+
     <div class="row">
         <div class="col-xs-12">
             <!-- PAGE CONTENT BEGINS -->
