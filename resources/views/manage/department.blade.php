@@ -155,7 +155,7 @@
                 data: grid_data,
                 datatype: "local",
                 height: 400,
-                colNames:[' ', 'ID','Last Sales','Name', 'Stock', 'Ship via','Notes'],
+                colNames:[' ', 'ID','部门名称', 'Stock', 'Ship via','Notes','Last Sales'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
                         formatter:'actions',
@@ -221,8 +221,8 @@
 
 
             //enable search/filter toolbar
-            //jQuery(grid_selector).jqGrid('filterToolbar',{defaultSearch:true,stringResult:true})
-            //jQuery(grid_selector).filterToolbar({});
+            jQuery(grid_selector).jqGrid('filterToolbar',{defaultSearch:true,stringResult:true})
+            jQuery(grid_selector).filterToolbar({});
 
 
             //switch element when editing inline
