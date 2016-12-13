@@ -28,7 +28,7 @@ class ManageController extends Controller
 
 
 
-        return Response::json(array('code'=>Response::HTTP_OK,'message'=>'','data'=>''));
+        return Response::json(array('code'=>Response::HTTP_OK,'message'=>'333','data'=>'111'));
     }
 
 
