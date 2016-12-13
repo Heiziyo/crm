@@ -172,7 +172,6 @@
                     {name:'status',index:"status"},
                     {name:'start_time',index:"start_time"},
                     {name:'num',index:"num"},
-                    {name:'_token',index:'_token',editable: true,edittype:"hidden", editoptions: {value:"{{ csrf_token() }}"}}
 
                 ],
                 viewrecords : true,
