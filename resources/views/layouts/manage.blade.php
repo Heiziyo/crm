@@ -442,7 +442,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="">
+                        <a href="{{ url('department') }}">
                             <i class="menu-icon fa fa-caret-right"></i>
                             部门列表
                         </a>
