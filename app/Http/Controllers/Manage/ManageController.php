@@ -26,9 +26,9 @@ class ManageController extends Controller
     }
     public function addDepartment(){
 
-
-
-        return 22;
+        //{id:"1",bmname:"产品研发部",status:"1",start_time:"2",num:"3"},
+        $data = array('id'=>2,'bmname'=>'ddd','status'=>333,'start_time'=>222,'num'=>444);
+        echo  json_encode($data);
     }
 
 
