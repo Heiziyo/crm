@@ -93,7 +93,7 @@
     <script type="text/javascript">
         var grid_data =
                 [
-                    {id:"1",name:"产品研发部",note:"note",stock:"Yes",ship:"FedEx"},
+                    {id:"1",name:"产品研发部",note:"1",stock:"2",ship:"3"},
                 ];
 
         var subgrid_data =
@@ -155,7 +155,7 @@
                 data: grid_data,
                 datatype: "local",
                 height: 400,
-                colNames:[' ', 'ID','部门名称', '状态', '成立时间','人数'],
+                colNames:[' ', 'ID','bmname', '状态', '成立时间','人数'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
                         formatter:'actions',
@@ -168,7 +168,7 @@
                         }
                     },
                     {name:'id',index:'id', width:60, sorttype:"int", editable: true},
-                    {name:'部门名称'},
+                    {name:'部门名称',index:"bmname"},
                     {name:'状态',},
                     {name:'成立时间'},
                     {name:'人数'},
