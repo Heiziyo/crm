@@ -183,7 +183,7 @@
 
                 data: grid_data,
                 datatype: "local",
-                height: 600,
+                height: 400,
                 colNames:[' ', 'ID','Last Sales','Name', 'Stock', 'Ship via','Notes'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
