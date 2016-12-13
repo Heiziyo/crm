@@ -93,7 +93,7 @@
     <script type="text/javascript">
         var grid_data =
                 [
-                    {id:"1",name:"产品研发部",note:"1",stock:"2",ship:"3"},
+                    {id:"1",bmname:"产品研发部",status:"1",start_time:"2",num:"3"},
                 ];
 
         var subgrid_data =
