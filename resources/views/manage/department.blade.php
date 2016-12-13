@@ -167,8 +167,8 @@
                             //editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
                         }
                     },
-                    {name:'id',index:'id', width:60, sorttype:"int", editable: true},
-                    {name:'sdate',index:'1',width:90, editable:true, sorttype:"date",unformat: pickDate},
+                    {name:'部门名称',index:'id', width:60, sorttype:"int", editable: true},
+                    {name:'sdate',index:'sdate',width:90, editable:true, sorttype:"date",unformat: pickDate},
                     {name:'name',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
                     {name:'stock',index:'stock', width:70, editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"},unformat: aceSwitch},
                     {name:'ship',index:'ship', width:90, editable: true,edittype:"select",editoptions:{value:"FE:FedEx;IN:InTime;TN:TNT;AR:ARAMEX"}},
