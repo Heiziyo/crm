@@ -48,9 +48,7 @@
     <script src="/manage_style/assets/js/jqGrid/jquery.jqGrid.min.js"></script>
     <script src="/manage_style/assets/js/jqGrid/i18n/grid.locale-en.js"></script>
 
-    <!-- ace scripts -->
-    <script src="/manage_style/assets/js/ace-elements.min.js"></script>
-    <script src="/manage_style/assets/js/ace.min.js"></script>
+
 
     <!-- inline scripts related to this page -->
     <script type="text/javascript">
