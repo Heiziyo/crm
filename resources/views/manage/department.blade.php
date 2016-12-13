@@ -169,8 +169,8 @@
                     },
                     {name:'id',index:'id', width:60, sorttype:"int"},
                     {name:'bmname',index:"bmname",editable: true},
-                    {name:'status',index:"status"},
-                    {name:'start_time',index:"start_time"},
+                    {name:'status',index:"status",editable: true},
+                    {name:'start_time',index:"start_time",editable: true},
                     {name:'num',index:"num"},
 
                 ],

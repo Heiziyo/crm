@@ -25,12 +25,15 @@ class ManageController extends Controller
         return view('manage.department');
     }
     public function addDepartment(){
+        $opt = $_POST['oper'];
+        if ( $opt== 'add'){
 
+        }else if($opt == "edit"){
 
+        }else if($opt == "del"){
 
-       dd($_POST);
+        }
+       dd("Go OUT");
     }
-
-
 
 }
