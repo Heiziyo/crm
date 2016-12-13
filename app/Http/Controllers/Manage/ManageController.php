@@ -14,4 +14,17 @@ class ManageController extends Controller
 
         return view('manage.index');
     }
+
+
+
+    public function department(){
+
+
+
+        return view('manage.department');
+    }
+
+
+
+
 }

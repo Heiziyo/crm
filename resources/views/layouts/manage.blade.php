@@ -442,11 +442,10 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="">
                             <i class="menu-icon fa fa-caret-right"></i>
                             部门列表
                         </a>
-
                         <b class="arrow"></b>
                     </li>
                     <li class="">
