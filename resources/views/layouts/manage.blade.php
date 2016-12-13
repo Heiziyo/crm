@@ -9,37 +9,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- bootstrap & fontawesome -->
-    <link rel="stylesheet" href="/manage/assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/manage/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/font-awesome.min.css" />
 
     <!-- page specific plugin styles -->
 
     <!-- text fonts -->
-    <link rel="stylesheet" href="/manage/assets/css/ace-fonts.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-fonts.css" />
 
     <!-- ace styles -->
-    <link rel="stylesheet" href="/manage/assets/css/ace.min.css" id="main-ace-style" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace.min.css" id="main-ace-style" />
 
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/manage/assets/css/ace-part2.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-part2.min.css" />
     <![endif]-->
-    <link rel="stylesheet" href="/manage/assets/css/ace-skins.min.css" />
-    <link rel="stylesheet" href="/manage/assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-rtl.min.css" />
 
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/manage/assets/css/ace-ie.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-ie.min.css" />
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
-    <script src="/manage/assets/js/ace-extra.min.js"></script>
+    <script src="/manage_style/assets/js/ace-extra.min.js"></script>
 
     <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
 
     <!--[if lte IE 8]>
-    <script src="/manage/assets/js/html5shiv.min.js"></script>
-    <script src="/manage/assets/js/respond.min.js"></script>
+    <script src="/manage_style/assets/js/html5shiv.min.js"></script>
+    <script src="/manage_style/assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -235,7 +235,7 @@
                             <ul class="dropdown-menu dropdown-navbar">
                                 <li>
                                     <a href="#">
-                                        <img src="/manage/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+                                        <img src="/manage_style/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
                                         <span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">Alex:</span>
@@ -252,7 +252,7 @@
 
                                 <li>
                                     <a href="#">
-                                        <img src="/manage/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+                                        <img src="/manage_style/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
                                         <span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">Susan:</span>
@@ -269,7 +269,7 @@
 
                                 <li>
                                     <a href="#">
-                                        <img src="/manage/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+                                        <img src="/manage_style/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
                                         <span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">Bob:</span>
@@ -286,7 +286,7 @@
 
                                 <li>
                                     <a href="#">
-                                        <img src="/manage/assets/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
+                                        <img src="/manage_style/assets/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
                                         <span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">Kate:</span>
@@ -303,7 +303,7 @@
 
                                 <li>
                                     <a href="#">
-                                        <img src="/manage/assets/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
+                                        <img src="/manage_style/assets/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
                                         <span class="msg-body">
 													<span class="msg-title">
 														<span class="blue">Fred:</span>
@@ -332,7 +332,7 @@
                 <!-- #section:basics/navbar.user_menu -->
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="/manage/assets/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="/manage_style/assets/avatars/user.jpg" alt="Jason's Photo" />
                         <span class="user-info">
 									<small>Welcome,</small>
 									Jason
@@ -1552,7 +1552,7 @@
                                                     <div class="clearfix">
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Bob Doe's avatar" src="/manage/assets/avatars/user.jpg" />
+                                                                <img alt="Bob Doe's avatar" src="/manage_style/assets/avatars/user.jpg" />
                                                             </div>
 
                                                             <div class="body">
@@ -1605,7 +1605,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Joe Doe's avatar" src="/manage/assets/avatars/avatar2.png" />
+                                                                <img alt="Joe Doe's avatar" src="/manage_style/assets/avatars/avatar2.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1658,7 +1658,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Jim Doe's avatar" src="/manage/assets/avatars/avatar.png" />
+                                                                <img alt="Jim Doe's avatar" src="/manage_style/assets/avatars/avatar.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1711,7 +1711,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Alex Doe's avatar" src="/manage/assets/avatars/avatar5.png" />
+                                                                <img alt="Alex Doe's avatar" src="/manage_style/assets/avatars/avatar5.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1732,7 +1732,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Bob Doe's avatar" src="/manage/assets/avatars/avatar2.png" />
+                                                                <img alt="Bob Doe's avatar" src="/manage_style/assets/avatars/avatar2.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1753,7 +1753,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Susan's avatar" src="/manage/assets/avatars/avatar3.png" />
+                                                                <img alt="Susan's avatar" src="/manage_style/assets/avatars/avatar3.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1774,7 +1774,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Phil Doe's avatar" src="/manage/assets/avatars/avatar4.png" />
+                                                                <img alt="Phil Doe's avatar" src="/manage_style/assets/avatars/avatar4.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1795,7 +1795,7 @@
 
                                                         <div class="itemdiv memberdiv">
                                                             <div class="user">
-                                                                <img alt="Alexa Doe's avatar" src="/manage/assets/avatars/avatar1.png" />
+                                                                <img alt="Alexa Doe's avatar" src="/manage_style/assets/avatars/avatar1.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1837,7 +1837,7 @@
                                                     <div class="comments">
                                                         <div class="itemdiv commentdiv">
                                                             <div class="user">
-                                                                <img alt="Bob Doe's Avatar" src="/manage/assets/avatars/avatar.png" />
+                                                                <img alt="Bob Doe's Avatar" src="/manage_style/assets/avatars/avatar.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1893,7 +1893,7 @@
 
                                                         <div class="itemdiv commentdiv">
                                                             <div class="user">
-                                                                <img alt="Jennifer's Avatar" src="/manage/assets/avatars/avatar1.png" />
+                                                                <img alt="Jennifer's Avatar" src="/manage_style/assets/avatars/avatar1.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1927,7 +1927,7 @@
 
                                                         <div class="itemdiv commentdiv">
                                                             <div class="user">
-                                                                <img alt="Joe's Avatar" src="/manage/assets/avatars/avatar2.png" />
+                                                                <img alt="Joe's Avatar" src="/manage_style/assets/avatars/avatar2.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -1961,7 +1961,7 @@
 
                                                         <div class="itemdiv commentdiv">
                                                             <div class="user">
-                                                                <img alt="Rita's Avatar" src="/manage/assets/avatars/avatar3.png" />
+                                                                <img alt="Rita's Avatar" src="/manage_style/assets/avatars/avatar3.png" />
                                                             </div>
 
                                                             <div class="body">
@@ -2031,7 +2031,7 @@
                                             <div class="dialogs">
                                                 <div class="itemdiv dialogdiv">
                                                     <div class="user">
-                                                        <img alt="Alexa's Avatar" src="/manage/assets/avatars/avatar1.png" />
+                                                        <img alt="Alexa's Avatar" src="/manage_style/assets/avatars/avatar1.png" />
                                                     </div>
 
                                                     <div class="body">
@@ -2055,7 +2055,7 @@
 
                                                 <div class="itemdiv dialogdiv">
                                                     <div class="user">
-                                                        <img alt="John's Avatar" src="/manage/assets/avatars/avatar.png" />
+                                                        <img alt="John's Avatar" src="/manage_style/assets/avatars/avatar.png" />
                                                     </div>
 
                                                     <div class="body">
@@ -2079,7 +2079,7 @@
 
                                                 <div class="itemdiv dialogdiv">
                                                     <div class="user">
-                                                        <img alt="Bob's Avatar" src="/manage/assets/avatars/user.jpg" />
+                                                        <img alt="Bob's Avatar" src="/manage_style/assets/avatars/user.jpg" />
                                                     </div>
 
                                                     <div class="body">
@@ -2104,7 +2104,7 @@
 
                                                 <div class="itemdiv dialogdiv">
                                                     <div class="user">
-                                                        <img alt="Jim's Avatar" src="/manage/assets/avatars/avatar4.png" />
+                                                        <img alt="Jim's Avatar" src="/manage_style/assets/avatars/avatar4.png" />
                                                     </div>
 
                                                     <div class="body">
@@ -2128,7 +2128,7 @@
 
                                                 <div class="itemdiv dialogdiv">
                                                     <div class="user">
-                                                        <img alt="Alexa's Avatar" src="/manage/assets/avatars/avatar1.png" />
+                                                        <img alt="Alexa's Avatar" src="/manage_style/assets/avatars/avatar1.png" />
                                                     </div>
 
                                                     <div class="body">
@@ -2216,37 +2216,37 @@
 
 <!--[if !IE]> -->
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='/manage/assets/js/jquery.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='/manage_style/assets/js/jquery.min.js'>"+"<"+"/script>");
 </script>
 
 <!-- <![endif]-->
 
 <!--[if IE]>
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='/manage/assets/js/jquery1x.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='/manage_style/assets/js/jquery1x.min.js'>"+"<"+"/script>");
 </script>
 <![endif]-->
 <script type="text/javascript">
-    if('ontouchstart' in document.documentElement) document.write("<script src='/manage/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    if('ontouchstart' in document.documentElement) document.write("<script src='/manage_style/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>
-<script src="/manage/assets/js/bootstrap.min.js"></script>
+<script src="/manage_style/assets/js/bootstrap.min.js"></script>
 
 <!-- page specific plugin scripts -->
 
 <!--[if lte IE 8]>
-<script src="/manage/assets/js/excanvas.min.js"></script>
+<script src="/manage_style/assets/js/excanvas.min.js"></script>
 <![endif]-->
-<script src="/manage/assets/js/jquery-ui.custom.min.js"></script>
-<script src="/manage/assets/js/jquery.ui.touch-punch.min.js"></script>
-<script src="/manage/assets/js/jquery.easypiechart.min.js"></script>
-<script src="/manage/assets/js/jquery.sparkline.min.js"></script>
-<script src="/manage/assets/js/flot/jquery.flot.min.js"></script>
-<script src="/manage/assets/js/flot/jquery.flot.pie.min.js"></script>
-<script src="/manage/assets/js/flot/jquery.flot.resize.min.js"></script>
+<script src="/manage_style/assets/js/jquery-ui.custom.min.js"></script>
+<script src="/manage_style/assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/manage_style/assets/js/jquery.easypiechart.min.js"></script>
+<script src="/manage_style/assets/js/jquery.sparkline.min.js"></script>
+<script src="/manage_style/assets/js/flot/jquery.flot.min.js"></script>
+<script src="/manage_style/assets/js/flot/jquery.flot.pie.min.js"></script>
+<script src="/manage_style/assets/js/flot/jquery.flot.resize.min.js"></script>
 
 <!-- ace scripts -->
-<script src="/manage/assets/js/ace-elements.min.js"></script>
-<script src="/manage/assets/js/ace.min.js"></script>
+<script src="/manage_style/assets/js/ace-elements.min.js"></script>
+<script src="/manage_style/assets/js/ace.min.js"></script>
 
 <!-- inline scripts related to this page -->
 <script type="text/javascript">
@@ -2465,16 +2465,16 @@
 </script>
 
 <!-- the following scripts are used in demo only for onpage help and you don't need them -->
-<link rel="stylesheet" href="/manage/assets/css/ace.onpage-help.css" />
-<link rel="stylesheet" href="/manage/docs/assets/js/themes/sunburst.css" />
+<link rel="stylesheet" href="/manage_style/assets/css/ace.onpage-help.css" />
+<link rel="stylesheet" href="/manage_style/docs/assets/js/themes/sunburst.css" />
 
 <script type="text/javascript"> ace.vars['base'] = '..'; </script>
-<script src="/manage/assets/js/ace/elements.onpage-help.js"></script>
-<script src="/manage/assets/js/ace/ace.onpage-help.js"></script>
-<script src="/manage/docs/assets/js/rainbow.js"></script>
-<script src="/manage/docs/assets/js/language/generic.js"></script>
-<script src="/manage/docs/assets/js/language/html.js"></script>
-<script src="/manage/docs/assets/js/language/css.js"></script>
-<script src="/manage/docs/assets/js/language/javascript.js"></script>
+<script src="/manage_style/assets/js/ace/elements.onpage-help.js"></script>
+<script src="/manage_style/assets/js/ace/ace.onpage-help.js"></script>
+<script src="/manage_style/docs/assets/js/rainbow.js"></script>
+<script src="/manage_style/docs/assets/js/language/generic.js"></script>
+<script src="/manage_style/docs/assets/js/language/html.js"></script>
+<script src="/manage_style/docs/assets/js/language/css.js"></script>
+<script src="/manage_style/docs/assets/js/language/javascript.js"></script>
 </body>
 </html>
