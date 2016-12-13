@@ -2,9 +2,42 @@
 
 @section('content')
     <!-- page specific plugin styles -->
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/manage_style/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/font-awesome.min.css" />
+
+    <!-- page specific plugin styles -->
     <link rel="stylesheet" href="/manage_style/assets/css/jquery-ui.min.css" />
     <link rel="stylesheet" href="/manage_style/assets/css/datepicker.css" />
     <link rel="stylesheet" href="/manage_style/assets/css/ui.jqgrid.css" />
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-fonts.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/manage_style/assets/css/ace.min.css" id="main-ace-style" />
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-part2.min.css" />
+    <![endif]-->
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-rtl.min.css" />
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/manage_style/assets/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- ace settings handler -->
+    <script src="/manage_style/assets/js/ace-extra.min.js"></script>
+
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+    <!--[if lte IE 8]>
+    <script src="/manage_style/assets/js/html5shiv.min.js"></script>
+    <script src="/manage_style/assets/js/respond.min.js"></script>
+    <![endif]-->
 
     <div class="row">
         <div class="col-xs-12">
