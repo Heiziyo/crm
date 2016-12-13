@@ -169,9 +169,10 @@
                     },
                     {name:'id',index:'id', width:60, sorttype:"int"},
                     {name:'bmname',index:"bmname",editable: true},
-                    {name:'status',index:"status",editable: true},
-                    {name:'start_time',index:"start_time",editable: true},
+                    {name:'status',index:"status",editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"}},
+                    {name:'start_time',index:"start_time",editable: true,editable:true, sorttype:"date",unformat: pickDate},
                     {name:'num',index:"num"},
+                    {name:'note',index:'note', width:150, sortable:false,editable: true,edittype:"textarea", editoptions:{rows:"2",cols:"10"}}
 
                 ],
                 viewrecords : true,
