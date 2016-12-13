@@ -6,6 +6,7 @@ namespace App\Http\Controllers\Manage;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Symfony\Component\HttpFoundation\Response;
 
 class ManageController extends Controller
 {
