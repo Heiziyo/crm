@@ -168,13 +168,12 @@
                         }
                     },
                     {name:'id',index:'id', width:60, sorttype:"int", editable: true},
-                    {name:'部门名称',index:'sdate',width:90, editable:true, sorttype:"date",unformat: pickDate},
-                    {name:'状态',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
-                    {name:'成立时间',index:'stock', width:70, editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"},unformat: aceSwitch},
-                    {name:'人数',index:'ship', width:90, editable: true,edittype:"select",editoptions:{value:"FE:FedEx;IN:InTime;TN:TNT;AR:ARAMEX"}},
+                    {name:'部门名称'},
+                    {name:'状态',},
+                    {name:'成立时间'},
+                    {name:'人数'},
 
                 ],
-
                 viewrecords : true,
                 rowNum:10,
                 rowList:[10,20,30],
