@@ -155,7 +155,7 @@
                 data: grid_data,
                 datatype: "local",
                 height: 400,
-                colNames:[' ', 'ID','部门名称', 'Stock', 'Ship via','Notes','Last Sales'],
+                colNames:[' ', 'ID','部门名称', '状态', '成立时间','人数'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
                         formatter:'actions',
@@ -167,7 +167,7 @@
                             //editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
                         }
                     },
-                    {name:'部门名称',index:'id', width:60, sorttype:"int", editable: true},
+                    {name:'id',index:'id', width:60, sorttype:"int", editable: true},
                     {name:'sdate',index:'sdate',width:90, editable:true, sorttype:"date",unformat: pickDate},
                     {name:'name',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
                     {name:'stock',index:'stock', width:70, editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"},unformat: aceSwitch},
@@ -221,8 +221,8 @@
 
 
             //enable search/filter toolbar
-            jQuery(grid_selector).jqGrid('filterToolbar',{defaultSearch:true,stringResult:true})
-            jQuery(grid_selector).filterToolbar({});
+            //jQuery(grid_selector).jqGrid('filterToolbar',{defaultSearch:true,stringResult:true})
+            //jQuery(grid_selector).filterToolbar({});
 
 
             //switch element when editing inline
