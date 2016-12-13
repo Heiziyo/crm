@@ -155,7 +155,7 @@
                 data: grid_data,
                 datatype: "local",
                 height: 400,
-                colNames:[' ', 'ID','bmname', '状态', '成立时间','人数'],
+                colNames:[' ', 'ID','部门名称', '状态', '成立时间','人数'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
                         formatter:'actions',
@@ -168,10 +168,10 @@
                         }
                     },
                     {name:'id',index:'id', width:60, sorttype:"int", editable: true},
-                    {name:'部门名称',index:"bmname"},
-                    {name:'状态',},
-                    {name:'成立时间'},
-                    {name:'人数'},
+                    {name:'bmname',index:"bmname"},
+                    {name:'status',index:"status"},
+                    {name:'start_time',index:"start_time"},
+                    {name:'num',index:"num"},
 
                 ],
                 viewrecords : true,
