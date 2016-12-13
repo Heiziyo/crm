@@ -15,8 +15,8 @@
     <div class="head">
         <div class="head_content">
             <div class="head_titie">
-                <h3 class="">JavaScript</h3>
-                <p>JavaScript资深全栈 WEB工程师进阶课程</p>
+                <h3 class="">PhotoShop</h3>
+                <p>PhotoShop进阶课程</p>
             </div>
         </div>
     </div>
