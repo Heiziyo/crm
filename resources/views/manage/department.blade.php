@@ -29,7 +29,7 @@
     </div><!-- /.row -->
     <!--[if !IE]> -->
     <script type="text/javascript">
-        window.jQuery || document.write("<script src='/manage_style/assets/js/jquery.min.js'>"+"<"+"/script>");
+        window.jQuery || document.write("<script src='../assets/js/jquery.min.js'>"+"<"+"/script>");
     </script>
 
     <!-- <![endif]-->
@@ -40,13 +40,16 @@
     </script>
     <![endif]-->
 
+    <script src="/manage_style/assets/js/bootstrap.min.js"></script>
 
     <!-- page specific plugin scripts -->
     <script src="/manage_style/assets/js/date-time/bootstrap-datepicker.min.js"></script>
     <script src="/manage_style/assets/js/jqGrid/jquery.jqGrid.min.js"></script>
     <script src="/manage_style/assets/js/jqGrid/i18n/grid.locale-en.js"></script>
 
-
+    <!-- ace scripts -->
+    <script src="/manage_style/assets/js/ace-elements.min.js"></script>
+    <script src="/manage_style/assets/js/ace.min.js"></script>
 
     <!-- inline scripts related to this page -->
     <script type="text/javascript">
@@ -441,4 +444,16 @@
             });
         });
     </script>
+    <!-- the following scripts are used in demo only for onpage help and you don't need them -->
+    <link rel="stylesheet" href="/manage_style/assets/css/ace.onpage-help.css" />
+    <link rel="stylesheet" href="../docs/assets/js/themes/sunburst.css" />
+
+    <script type="text/javascript"> ace.vars['base'] = '/manage_style'; </script>
+    <script src="/manage_style/assets/js/ace/elements.onpage-help.js"></script>
+    <script src="/manage_style/assets/js/ace/ace.onpage-help.js"></script>
+    <script src="/manage_style/docs/assets/js/rainbow.js"></script>
+    <script src="/manage_style/docs/assets/js/language/generic.js"></script>
+    <script src="/manage_style/docs/assets/js/language/html.js"></script>
+    <script src="/manage_style/docs/assets/js/language/css.js"></script>
+    <script src="/manage_style/docs/assets/js/language/javascript.js"></script>
 @endsection
