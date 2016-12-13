@@ -39,9 +39,7 @@
         window.jQuery || document.write("<script src='/manage_style/assets/js/jquery1x.min.js'>"+"<"+"/script>");
     </script>
     <![endif]-->
-    <script type="text/javascript">
-        if('ontouchstart' in document.documentElement) document.write("<script src='/manage_style/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
-    </script>
+
 
     <!-- page specific plugin scripts -->
     <script src="/manage_style/assets/js/date-time/bootstrap-datepicker.min.js"></script>
