@@ -442,16 +442,13 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
+                        <a href="typography.html">
                             <i class="menu-icon fa fa-caret-right"></i>
-
-                            Layouts
-                            <b class="arrow fa fa-angle-down"></b>
+                            部门列表
                         </a>
 
                         <b class="arrow"></b>
                     </li>
-
                     <li class="">
                         <a href="typography.html">
                             <i class="menu-icon fa fa-caret-right"></i>
