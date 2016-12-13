@@ -27,7 +27,7 @@ class ManageController extends Controller
 
 
 
-        return 1;
+       echo 12111;
     }
 
 
