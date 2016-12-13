@@ -41,3 +41,4 @@ Route::get('/admin', 'Admin\AdminController@index');
 
 Route::get('/manage', 'Manage\ManageController@index');
 Route::get('/department', 'Manage\ManageController@department');
+Route::post('/addDepartment','Manage\ManageController@addDepartment');

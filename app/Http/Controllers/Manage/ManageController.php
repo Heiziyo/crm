@@ -23,7 +23,12 @@ class ManageController extends Controller
 
         return view('manage.department');
     }
+    public function addDepartment(){
 
+
+
+        return 1;
+    }
 
 
 

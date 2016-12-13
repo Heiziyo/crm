@@ -168,11 +168,7 @@
                         }
                     },
                     {name:'id',index:'id', width:60, sorttype:"int", editable: true},
-                    {name:'sdate',index:'sdate',width:90, editable:true, sorttype:"date",unformat: pickDate},
-                    {name:'name',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
-                    {name:'stock',index:'stock', width:70, editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"},unformat: aceSwitch},
-                    {name:'ship',index:'ship', width:90, editable: true,edittype:"select",editoptions:{value:"FE:FedEx;IN:InTime;TN:TNT;AR:ARAMEX"}},
-                    {name:'note',index:'note', width:150, sortable:false,editable: true,edittype:"textarea", editoptions:{rows:"2",cols:"10"}}
+
                 ],
 
                 viewrecords : true,
@@ -197,7 +193,7 @@
                     }, 0);
                 },
 
-                editurl: "/dummy.html",//nothing is saved
+                editurl: "{{ url('addDepartment') }}",//nothing is saved
                 caption: "部门列表"
 
                 ,autowidth: true,
