@@ -93,7 +93,7 @@
     <script type="text/javascript">
         var grid_data =
                 [
-                    {id:"1",bmname:"产品研发部",status:"1",start_time:"2",num:"3",note:'333'},
+                    {id:"1",bmname:"产品研发部",status:"1",num:"3",note:'333'},
                 ];
 
         var subgrid_data =
@@ -155,7 +155,7 @@
                 data: grid_data,
                 datatype: "local",
                 height: 400,
-                colNames:[' ', 'ID','部门名称', '状态', '成立时间','人数','备注'],
+                colNames:[' ', 'ID','部门名称', '状态', '人数','备注'],
                 colModel:[
                     {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
                         formatter:'actions',
@@ -168,10 +168,8 @@
                         }
                     },
                     {name:'id',index:'id', width:60, sorttype:"int"},
-                    {name:'start_time',index:'start_time',width:90, editable:true, sorttype:"date",unformat: pickDate},
                     {name:'bmname',index:"bmname",editable: true},
                     {name:'status',index:"status",editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"}},
-
                     {name:'num',index:"num"},
                     {name:'note',index:'note', width:150, sortable:false,editable: true,edittype:"textarea", editoptions:{rows:"2",cols:"10"}}
 
