@@ -26,7 +26,7 @@ Route::get('/project', 'Project\ProjectController@index');
 Route::get('/adddesign', 'Project\ProjectController@addDesign');
 
 
-Route::get('/manage', 'Manage\ManageController@index');
+
 Route::any('/upinfo', 'Common\CommonController@upInfo');
 
 
@@ -37,3 +37,8 @@ Route::get('/backcourse', 'Team\CourseController@backCourse');
 
 Route::get('/admin', 'Admin\AdminController@index');
 
+
+
+Route::get('/manage', 'Manage\ManageController@index');
+Route::get('/department', 'Manage\ManageController@department');
+Route::any('/addDepartment','Manage\ManageController@addDepartment');
