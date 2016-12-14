@@ -27,7 +27,6 @@
                     <div class="fl">
                         <a href="javaScript:;" class="chapter active">查看章节</a>
                         <a href="javaScript:;" class="spread">全部展开</a>
-                        <span>共4个阶段，21 章节，652 小节知识点。</span>
                     </div>
                     <div class="fr">
                         <a href="#" class="details">课程详情</a>
@@ -432,7 +431,7 @@
                                 <li><a href="">9.8.1 - 数据防采集</a></li>
                                 <li><a href=""><i class="dot"></i>9.9 - curl破解</a></li>
                                 <li><a href="">9.9.1 - ip获取</a></li>
-                                <li><a href="">9.9.2 - 火车头</a></li>
+
                             </ul>
                         </div>
                     </div>
