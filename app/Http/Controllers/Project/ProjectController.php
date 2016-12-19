@@ -210,4 +210,12 @@ class ProjectController extends Controller
         }
         print(__FUNCTION__ . ": OK" . "\n");
     }
+
+    /**
+     * @return string
+     */
+    public function projectUpImg()
+    {
+        return $this->validatesRequestErrorBag;
+    }
 }
