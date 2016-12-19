@@ -205,14 +205,12 @@ class ProjectController extends Controller
         if ($request->isMethod('post')){
             $uploads_dir = "1";
             $upf = $request->file("uu");
-            var_dump($upf);
-            exit();
-            foreach ($_FILES["uu"]["error"] as $key => $error) {
+            foreach ($upf as $key => $error) {
                 if ($error == UPLOAD_ERR_OK) {
-                    $tmp_name = $_FILES["uu"]["tmp_name"][$key];
+                    $tmp_name = $upf["tmp_name"][$key];
                     // basename() may prevent filesystem traversal attacks;
                     // further validation/sanitation of the filename may be appropriate
-                    $name = basename($_FILES["uu"]["name"][$key]);
+                    $name = basename($upf["name"][$key]);
                     if (move_uploaded_file($tmp_name, "$uploads_dir/$name")){
                         $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
                         $object = $uploads_dir/$name;
