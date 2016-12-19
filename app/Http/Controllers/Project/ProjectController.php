@@ -205,10 +205,10 @@ class ProjectController extends Controller
         if ($request->isMethod('post')){
             $uploads_dir = "1";
 
-            $tmp_name = $_FILES["uu"]["tmp_name"][$key];
+            $tmp_name = $_FILES["uu"]["tmp_name"];
             // basename() may prevent filesystem traversal attacks;
             // further validation/sanitation of the filename may be appropriate
-            $name = basename($_FILES["uu"]["name"][$key]);
+            $name = basename($_FILES["uu"]["name"]);
             if (move_uploaded_file($tmp_name, "$uploads_dir/$name")){
                 $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
                 $object = $uploads_dir/$name;
