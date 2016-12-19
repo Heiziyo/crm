@@ -203,7 +203,7 @@ class ProjectController extends Controller
     public function projectUpImg(Request $request)
     {
         if ($request->isMethod('post')){
-            $uploads_dir = "myfile";
+            $uploads_dir = SITE_PATH."myfile";
             if (!is_dir($uploads_dir)){
                 @mkdir($uploads_dir,0777);
             }
