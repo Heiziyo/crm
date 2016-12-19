@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a4ec25fb073a4cf0542a6025d0af97e8",
-    "content-hash": "779380f9f3d6c77b9b4a67deea5c5a28",
+    "hash": "a2a80592c415345d9bd1ce3b097e7b24",
+    "content-hash": "5a01cb6f962060f8462b160f9f18128f",
     "packages": [
         {
             "name": "aliyuncs/oss-sdk-php",
-            "version": "v2.1.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aliyun/aliyun-oss-php-sdk.git",
-                "reference": "250c8e58836b11bdf37c1bc204b25454a0d7bff4"
+                "reference": "17b3963b10c09a011e39f576aba5d4023e539422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/aliyun/aliyun-oss-php-sdk/250c8e58836b11bdf37c1bc204b25454a0d7bff4.zip",
-                "reference": "250c8e58836b11bdf37c1bc204b25454a0d7bff4",
+                "url": "https://packagist.phpcomposer.com/files/aliyun/aliyun-oss-php-sdk/17b3963b10c09a011e39f576aba5d4023e539422.zip",
+                "reference": "17b3963b10c09a011e39f576aba5d4023e539422",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
             ],
             "description": "Aliyun OSS SDK for PHP",
             "homepage": "http://www.aliyun.com/product/oss/",
-            "time": "2016-11-12 09:40:57"
+            "time": "2016-12-01 08:00:07"
         },
         {
             "name": "classpreloader/classpreloader",

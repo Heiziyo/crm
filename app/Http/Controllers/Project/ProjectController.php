@@ -11,9 +11,11 @@ class ProjectController extends Controller
 {
     public function index(){
 
-
-
-
+        $endpoint = "oss-cn-shanghai.aliyuncs.com";
+        $accessKeyId = 'Wc7HoLLuXHV2tq2O';
+        $accessKeySecret = "lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf";
+        $oss = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
+        var_dump($oss);
 
         return view('project.index');
     }
