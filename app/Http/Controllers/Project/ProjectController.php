@@ -203,23 +203,30 @@ class ProjectController extends Controller
     public function projectUpImg(Request $request)
     {
         if ($request->isMethod('post')){
-            print_r($_FILES);
-            $file = $_FILES['uu']['name'];
-            $endpoint = "oss-cn-shanghai.aliyuncs.com";
-            $accessKeyId = 'Wc7HoLLuXHV2tq2O';
-            $accessKeySecret = "lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf";
-            $bucket  = "designfiles";
-            $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
-            $object = $file;
-            $filePath = __FILE__;
-            try{
-                $ossClient->uploadFile($bucket, $object, $filePath);
-            } catch(OssException $e) {
-                printf(__FUNCTION__ . ": FAILED\n");
-                printf($e->getMessage() . "\n");
-                return;
+            $uploads_dir = "1";
+            foreach ($_FILES["uu"]["error"] as $key => $error) {
+                if ($error == UPLOAD_ERR_OK) {
+                    $tmp_name = $_FILES["uu"]["tmp_name"][$key];
+                    // basename() may prevent filesystem traversal attacks;
+                    // further validation/sanitation of the filename may be appropriate
+                    $name = basename($_FILES["uu"]["name"][$key]);
+                    if (move_uploaded_file($tmp_name, "$uploads_dir/$name")){
+                        $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
+                        $object = $uploads_dir/$name;
+                        $filePath = __FILE__;
+                        try{
+                            $ossClient->uploadFile(env('ALIOSS_BUCKET', ''), $object, $filePath);
+                        } catch(OssException $e) {
+                            printf(__FUNCTION__ . ": FAILED\n");
+                            printf($e->getMessage() . "\n");
+                            return;
+                        }
+                        print(__FUNCTION__ . ": OK" . "\n");
+
+                    }
+                }
             }
-            print(__FUNCTION__ . ": OK" . "\n");
+
         }
     }
 }
