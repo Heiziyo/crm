@@ -203,6 +203,7 @@ class ProjectController extends Controller
     public function projectUpImg(Request $request)
     {
         if ($request->isMethod('post')){
+            print_r($_FILES);
             $file = $_FILES['uu']['name'];
             $endpoint = "oss-cn-shanghai.aliyuncs.com";
             $accessKeyId = 'Wc7HoLLuXHV2tq2O';
