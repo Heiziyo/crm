@@ -11,21 +11,7 @@ class ProjectController extends Controller
 {
     public function index(){
 
-        $endpoint = "oss-cn-shanghai.aliyuncs.com";
-        $accessKeyId = 'Wc7HoLLuXHV2tq2O';
-        $accessKeySecret = "lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf";
-        $bucket  = "designfiles";
-        $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
-        $object = "oss-php-sdk-test/upload-test-object-name.txt";
-        $filePath = __FILE__;
-        try{
-            $ossClient->uploadFile($bucket, $object, $filePath);
-        } catch(OssException $e) {
-            printf(__FUNCTION__ . ": FAILED\n");
-            printf($e->getMessage() . "\n");
-            return;
-        }
-        print(__FUNCTION__ . ": OK" . "\n");
+
 
         return view('project.index');
     }
@@ -214,8 +200,25 @@ class ProjectController extends Controller
     /**
      * @return string
      */
-    public function projectUpImg()
+    public function projectUpImg(Request $request)
     {
-        return $this->validatesRequestErrorBag;
+        if ($request->isMethod('post')){
+            $file = $_FILES['uu']['name'];
+            $endpoint = "oss-cn-shanghai.aliyuncs.com";
+            $accessKeyId = 'Wc7HoLLuXHV2tq2O';
+            $accessKeySecret = "lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf";
+            $bucket  = "designfiles";
+            $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
+            $object = $file;
+            $filePath = __FILE__;
+            try{
+                $ossClient->uploadFile($bucket, $object, $filePath);
+            } catch(OssException $e) {
+                printf(__FUNCTION__ . ": FAILED\n");
+                printf($e->getMessage() . "\n");
+                return;
+            }
+            print(__FUNCTION__ . ": OK" . "\n");
+        }
     }
 }
