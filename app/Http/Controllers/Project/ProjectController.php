@@ -215,7 +215,7 @@ class ProjectController extends Controller
                 $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
 
                 $object = "/public/".$uploads_dir."/".$name;
-                $oss_path=ltrim($filePath,'./');
+                $oss_path=ltrim($object,'./');
                 $filePath='./'.$oss_path;
                 try{
                     $ossClient->uploadFile(env('ALIOSS_BUCKET', ''), $object, $filePath);
