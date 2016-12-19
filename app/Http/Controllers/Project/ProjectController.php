@@ -216,7 +216,7 @@ class ProjectController extends Controller
 
                 $object = $uploads_dir."/".$name;
                 $oss_path=ltrim($object,'./');
-                $filePath=$oss_path;
+                $filePath="/".$oss_path;
                 try{
                     $ossClient->uploadFile(env('ALIOSS_BUCKET', ''), $object, $filePath);
                 } catch(OssException $e) {
