@@ -204,7 +204,9 @@ class ProjectController extends Controller
     {
         if ($request->isMethod('post')){
             $uploads_dir = "myfile";
-
+            if (!is_dir($uploads_dir)){
+                @mkdir($uploads_dir,0777);
+            }
             $tmp_name = $_FILES["uu"]["tmp_name"];
             // basename() may prevent filesystem traversal attacks;
             // further validation/sanitation of the filename may be appropriate
