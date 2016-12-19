@@ -203,7 +203,7 @@ class ProjectController extends Controller
     public function projectUpImg(Request $request)
     {
         if ($request->isMethod('post')){
-            $uploads_dir = "/myfile";
+            $uploads_dir = "myfile";
 
             $tmp_name = $_FILES["uu"]["tmp_name"];
             // basename() may prevent filesystem traversal attacks;
