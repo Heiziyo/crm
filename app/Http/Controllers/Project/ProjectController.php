@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use OSS\OssClient;
 use OSS\Core\OssException;
-class ProjectController extends CrmBaseController
+class ProjectController extends Controller
 {
     public function index(){
 
