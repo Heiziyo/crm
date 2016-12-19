@@ -204,8 +204,6 @@ class ProjectController extends Controller
     {
         if ($request->isMethod('post')){
             $uploads_dir = "1";
-            var_dump($_FILES);
-            exit;
             foreach ($_FILES["uu"]["error"] as $key => $error) {
                 if ($error == UPLOAD_ERR_OK) {
                     $tmp_name = $_FILES["uu"]["tmp_name"][$key];
@@ -228,7 +226,6 @@ class ProjectController extends Controller
                     }
                 }
             }
-
         }
     }
 }
