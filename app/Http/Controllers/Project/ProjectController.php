@@ -14,8 +14,18 @@ class ProjectController extends Controller
         $endpoint = "oss-cn-shanghai.aliyuncs.com";
         $accessKeyId = 'Wc7HoLLuXHV2tq2O';
         $accessKeySecret = "lwIuKtYe8ffBCF0KTtZ5we8R6RSkuf";
-        $oss = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
-        var_dump($oss);
+        $bucket  = "designfiles";
+        $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
+        $object = "oss-php-sdk-test/upload-test-object-name.txt";
+        $filePath = __FILE__;
+        try{
+            $ossClient->uploadFile($bucket, $object, $filePath);
+        } catch(OssException $e) {
+            printf(__FUNCTION__ . ": FAILED\n");
+            printf($e->getMessage() . "\n");
+            return;
+        }
+        print(__FUNCTION__ . ": OK" . "\n");
 
         return view('project.index');
     }
