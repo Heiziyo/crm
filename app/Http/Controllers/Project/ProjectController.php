@@ -216,7 +216,7 @@ class ProjectController extends Controller
 
                 $object = "/public/".$uploads_dir/$name;
                 $filePath = "/var/www/crm/public/";
-                print_r($object);
+                print_r($name);
                 echo "<br>";
                 print_r($filePath);
                 try{
