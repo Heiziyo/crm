@@ -7,11 +7,9 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use OSS\OssClient;
 use OSS\Core\OssException;
-class ProjectController extends CrmBaseController
+class ProjectController extends Controller
 {
     public function index(){
-
-
 
 
 
@@ -197,5 +195,39 @@ class ProjectController extends CrmBaseController
             return;
         }
         print(__FUNCTION__ . ": OK" . "\n");
+    }
+
+    /**
+     * @return string
+     */
+    public function projectUpImg(Request $request)
+    {
+        if ($request->isMethod('post')){
+            $uploads_dir = SITE_PATH."myfile";
+            if (!is_dir($uploads_dir)){
+                @mkdir($uploads_dir,0777);
+            }
+            $tmp_name = $_FILES["uu"]["tmp_name"];
+            // basename() may prevent filesystem traversal attacks;
+            // further validation/sanitation of the filename may be appropriate
+            $name = basename($_FILES["uu"]["name"]);
+            if (move_uploaded_file($tmp_name, "$uploads_dir/$name")){
+                $ossClient = new OssClient(env('ALIOSS_ACCESSKEYID', ''), env('ALIOSS_ACCESSKEYSECRET', ''), env('ALIOSS_ENDPOINT', ''));
+
+                $object = $uploads_dir."/".$name;
+                $oss_path="";
+                $filePath="/".$oss_path;
+                try{
+                    $ossClient->uploadFile(env('ALIOSS_BUCKET', ''), $object, $filePath);
+                } catch(OssException $e) {
+                    printf(__FUNCTION__ . ": FAILED\n");
+                    printf($e->getMessage() . "\n");
+                    return;
+                }
+                print(__FUNCTION__ . ": OK" . "\n");
+
+            }
+
+        }
     }
 }
