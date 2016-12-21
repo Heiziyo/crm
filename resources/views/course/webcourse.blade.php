@@ -340,10 +340,10 @@
                         </div>
                     </div>
                     <div class="curriculum">
-                        <h3>ECMASCRIPT6  </h3>
+                        <h3>ECMASCRIPT6 </h3>
                         <div class="title-list">
                             <h3>
-                                <a href=""><span>25/span>课程列表</a>
+                                <a href=""><span>25</span>课程列表</a>
                             </h3>
                             <ul>
                                 <li><a href="#" target="_blank">简介</a></li>

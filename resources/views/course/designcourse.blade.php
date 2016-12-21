@@ -159,14 +159,109 @@
                                 <li><a href="">4、活动物料介绍与制作</a></li>
                             </ul>
                         </div>
-
                     </div>
-                
+                    <div class="curriculum">
+                        <h3>第三章</h3>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>1</span>网页设计入门</a>
+                            </h3>
+                            <ul>
+                                <li><a href="" target="_blank">1-1-1、网站与网页的区别</a></li>
+                                <li><a href="">1-1-2、网页的基本组成部分</a></li>
+                                <li><a href="">1-1-3、网页的分类</a></li>
+                                <li><a href="">1-1-4、网页设计的目的</a></li>
+                                <li><a href="">1-1-5、网页设计的开发流程</a></li>
+                                <li><a href="">1-1-6、网页设计的基本规范</a></li>
+                                <li><a href="">1-1-7、网页设计的视觉风格</a></li>
+                                <li><a href="">1-1-8、网页设计的趋势</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>2</span>UI设计进阶</a>
+                            </h3>
+                            <ul>
+                                <li><a href="">2-1、bannner</a></li>
+                                <li><a href="">2-1-1、常规banner设计目的</a></li>
+                                <li><a href="">2-1-2、banner的设计流程</a></li>
+                                <li><a href="">2-1-3、banner的表现技巧</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>3</span>手机系统介绍</a>
+                            </h3>
+                            <ul> 
+                                <li><a href="">3-1、导航</a></li>
+                                <li><a href="">3-1-1、导航设计的目的</a></li>
+                                <li><a href="">3-1-2、导航的分类</a></li>
+                                <li><a href="">3-1-3、导航的表现技巧</a></li>
+                                <li><a href="">3-1-4、导航设计的交互形式</a></li>
+                                <li><a href="">3-2、网站布局创意色彩讲解</a></li>
+                                <li><a href="">3-2-1、常见的网站布局结构及网站创意解析</a></li>
+                                <li><a href="">3-2-2、网站二、三级页面设计布局详解</a></li>
+                                <li><a href="">3-2-3、网站常用控件设计</a></li>
+                                <li><a href="">3-2-4、网站色彩搭配详解</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>4</span>网页高级进阶</a>
+                            </h3>
+                            <ul> 
+                                <li><a href="">4-1-1、网页设计工作流程</a></li>
+                                <li><a href="">4-1-2、网站的需求提取与分析、定位、用户分析</a></li>
+                                <li><a href="">4-1-3、网站交互思维与逻辑</a></li>
+                                <li><a href="">4-1-4、案例解析</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>5</span>UI设计基础介绍篇</a>
+                            </h3>
+                            <ul> 
+                                <li><a href="">5-1、手机界面</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>6</span>UI设计尺寸规范篇</a>
+                            </h3>
+                            <ul> 
+                                <li><a href="">6-1-1、界面尺寸</a></li>
+                                <li><a href="">6-1-2、界面组成元素</a></li>
+                                <li><a href="">6-1-3、字体、按钮尺寸</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>7</span>UI手机界面设计</a>
+                            </h3>
+                            <ul> 
+                                <li><a href="">7-1-1、用户体验设计</a></li>
+                                <li><a href="">7-1-2、如何设计界面</a></li>
+                                <li><a href="">7-1-3、构图</a></li>
+                                <li><a href="">7-1-4、设计法则</a></li>
+                            </ul>
+                        </div>
+                        <div class="title-list">
+                            <h3>
+                                <a href=""><span>8</span>移动交互篇</a>
+                            </h3>
+                            <ul> 
+                                <li><a href="">8-1-1、移动端和pc端交互有何不同</a></li>
+                                <li><a href="">8-1-2、移动端的特点总结</a></li>
+                                <li><a href="">8-1-3、设计前需要考虑的交互特点</a></li>
+                                <li><a href="">8-1-4、用户体验</a></li>
+                                <li><a href="">8-1-5、原形框架</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="back-top"></div>
 </div>
 </body>
